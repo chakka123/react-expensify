@@ -27,7 +27,7 @@ export class AddExpensePage extends Component {
 const mapDispatchToProps = (dispatch) => {
     return {
         addExpense: (expense) => {
-            dispatch(addExpense(expense))
+            dispatch(addExpense(expense));
         }
     }
 }
